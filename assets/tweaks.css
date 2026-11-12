@@ -1,0 +1,15 @@
+/* Small visual refinements kept separate from the primary stylesheet. */
+.code-window pre code {
+  display: block;
+  transform-origin: left;
+  animation: codeReveal 2.4s steps(32, end) .85s both;
+}
+
+@keyframes codeReveal {
+  from { clip-path: inset(0 100% 0 0); }
+  to { clip-path: inset(0); }
+}
+
+@media (prefers-reduced-motion: reduce) {
+  .code-window pre code { animation: none; }
+}

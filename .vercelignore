@@ -1,0 +1,10 @@
+# Source material and local design references not needed in deployment artifacts
+CV-Dong-Van-Truong.pdf
+Dong-Van-Truong-Ecommerce-Full-Stack-Developer-CV.docx
+.idea/
+.vscode/
+design.png
+template.png
+document.md
+document2.md
+prompt.md

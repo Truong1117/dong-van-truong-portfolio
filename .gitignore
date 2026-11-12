@@ -1,0 +1,16 @@
+# Operating-system and local tool files
+.DS_Store
+.vercel/
+.idea/
+.vscode/
+.env
+.env.*
+
+# Source material and local design references not needed by the deployed site
+CV-Dong-Van-Truong.pdf
+Dong-Van-Truong-Ecommerce-Full-Stack-Developer-CV.docx
+design.png
+template.png
+document.md
+document2.md
+prompt.md
